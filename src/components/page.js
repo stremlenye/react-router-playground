@@ -9,7 +9,7 @@ export default class Page extends React.Component {
   render () {
     return (
         <div>
-          {this.context.router.getCurrentParams().sid}
+          SID: {this.context.router.getCurrentParams().sid}
         </div>
       )
   }
