@@ -4,7 +4,7 @@ import {Container, SubContainer, Page} from 'components'
 
 let routes = (
     <Route path="/" handler={Container}>
-      <Route path="/:id" handler={SubContainer} />
+      <Route path="/:id/:sid" handler={SubContainer} />
     </Route>
 )
 
