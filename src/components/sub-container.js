@@ -10,7 +10,10 @@ export default class SubContainer extends React.Component {
   render () {
     return (
         <div>
+          <h1>SubContainer</h1>
           ID: {this.context.router.getCurrentParams().id}
+          <br />
+          SID: {this.context.router.getCurrentParams().sid}
           <RouteHandler />
         </div>
       )

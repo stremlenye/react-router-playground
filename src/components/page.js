@@ -9,6 +9,9 @@ export default class Page extends React.Component {
   render () {
     return (
         <div>
+          <h1>Page</h1>
+          ID: {this.context.router.getCurrentParams().id}
+          <br />
           SID: {this.context.router.getCurrentParams().sid}
         </div>
       )
